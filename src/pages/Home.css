@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container-bn {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.container-bn img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+}
+.text_banner {
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    top: 78%;
+    left: 19.6%;
+    transform: translate(-50%, -50%);
+}
+.button_banner button {
+    display: flex;
+}
+.button_banner {
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    left: 16.7%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    overflow: hidden;
+    border: none;
+    padding: 16px 30px;
+    border: none;
+    transition: .5s;
+}
+.button_banner:hover {
+    background-color: #c0bbbb;
+}
+.button_banner_02 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    transform: translate(-20%, -50%);
+    text-decoration: none;
+    background: none;
+    border: none;
+    border: 1px solid #fff;
+    padding: 16px 30px;
+    transition: .5s;
+}
+.button_banner_02:hover {
+    color: #928e8e;
+    border: 1px solid #928e8e;
+}
+
+
+/* ======= SECTION 2 ========*/
+
+
+.container_info {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+}
+.container_info p {
+    color: #fff;
+    padding: 35px 190px;
+    font-size: 15px;
+}
+.container_info .header_info h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 6rem;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.video01 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 10rem;
+    margin-left: -1.2rem;
+}
+.container_info_two {
+    min-height: 100vh;
+    background: #000;
+}
+.container_info_two p {
+    font-size: 13px;
+    padding: 25px 170px;
+    background: #000;
+    color: #fff;
+}
+.right__img {
+    margin-left: 38.9rem;
+}
+
+/* ===== CAROUSEL =====*/
+
+.main-container {
+    width: 1300px;
+    height: 780px;
+    margin: 0 auto;
+  }
+  
+  /* Slider container */
+  .slider-container {
+    position: relative;
+    height: 100%
+  }
+  
+  /* dots carrusel */
+  .dots-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot-container-item {
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  /* Arrows */
+  .leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .container-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+  }
+  
+  div.active {
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+
+
+/* AUDI SPECTS */
+
+.container-spects {
+    padding: 5rem;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.container-spects h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container-spects {
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text-info p {
+    color: #000;
+}
+
+.text-info button{
+    text-decoration: none;
+    border: none;
+    background: none;
+    border: 1px solid #000;
+    padding: 15px 60px;
+    transition: .2s;
+}
+.text-info button:hover {
+    color: #696666;
+    border: 1px solid #696666;
+}
+.info-mid {
+    padding: 14rem 3rem;
+}
+.text-info img{
+    margin-left: -13rem;
+}
+
+/* TWO IMAGES */
+
+.container-images-two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.container-left {
+    margin-left: 5rem;
+}
+.container-right {
+    margin-left: -1rem;
+}
+.container-images-two h4 {
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.container-images-two p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.arrow-p {
+    font-size: 26px;
+}
+.btn-left {
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+.btn-right {
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+/* INFO THREE */
+
+.aside-three {
+    min-height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px 100px;
+}
+.container-info-sm {
+    width: 100%;
+    margin-left: 5rem;
+    padding: 50px 80px;
+    
+}
+.container-info-sm h2 p {
+    font-size: 16px;
+    margin-top: 3.5rem;
+    margin-left: 0.5rem;
+}
+.container-info-sm h2 {
+    font-size: 95px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.parrafo-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1.5rem;
+}
+
+.info-fix {
+    margin-left: 10rem;
+}
+.container-border {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height: 65%;
+    margin-left: -3rem;
+}
+.last-info {
+    margin-left: 1.5rem;
+}
+.two-icons {
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.two-icons p {
+    margin-top: 4.5rem;
+    margin-left: -12rem;
+}
+.icons-dm {
+    display: flex;
+    justify-content: center;
+    margin-left: 48rem;
+    gap: 8rem;
+    cursor: pointer;
+}
+.icons-dm p {
+    font-size: 17px;
+}
+.icons-two {
+    font-size: 70px;
+}
+
+/* 430PX RESPONSIVE */
+
+@media (max-width: 430px) {
+    .container-bn{
+        height: 600px;
+        background: url('http://localhost:3000/img/imgmedia.jpg');
+        z-index: 1;
+    }
+    .container-bn img {
+        height: 600px;
+        width: 1000px;
+    }
+    
+}

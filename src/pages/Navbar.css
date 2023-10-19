@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+}
+.navbar .container{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.navbar .container img {
+    width: 60px;
+    margin-left: -15rem;
+}
+
+.navbar .container ul {
+    display: flex;
+    gap: 3rem;
+}
+.navbar .container ul li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 1.1rem;
+    cursor: pointer;
+}
+
+.navbar .container .link {
+    color: #8f8c8c;
+    text-decoration: none;
+}
+.navbar .container .link:hover {
+    color: #000;
+}
+.search_icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 40rem;
+    
+}

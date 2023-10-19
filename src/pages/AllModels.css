@@ -1,0 +1,13 @@
+.container_all {
+    width: 100%;
+    background: #e6e6e6;
+    position: relative;
+}
+.container_all h1 {
+    font-size: 65px;
+    display: flex;
+    margin-left: 8rem;
+    padding: 90px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
