@@ -8,7 +8,6 @@ html, body {
     overflow-x: hidden;
 }
 .container-bn {
-    
     width: 100%;
     position: relative;
     display: inline-block;
@@ -20,7 +19,7 @@ html, body {
     background-image: url('https://audireply.netlify.app/img/banner02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 900px;
     max-width: 100%;
     background-position: center;
 }
@@ -28,8 +27,10 @@ html, body {
     color: #fff;
     font-size: 60px;
     position: absolute;
-    top: 78%;
-    left: 19.6%;
+    top: 118%;
+    left: 18.7%;
+    margin-top: 2rem;
+    
     transform: translate(-50%, -50%);
 }
 .button_banner button {
@@ -40,15 +41,16 @@ html, body {
     text-decoration: none;
     font-size: 17px;
     position: absolute;
-    top: 85%;
+    top: 96%;
     left: 16.7%;
     transform: translate(-50%, -50%);
     background: #fff;
     overflow: hidden;
     border: none;
-    padding: 16px 30px;
+    padding: 16px 40px;
     border: none;
     transition: .5s;
+    margin-top: 15rem;
 }
 .button_banner:hover {
     background-color: #c0bbbb;
@@ -59,14 +61,15 @@ html, body {
     font-size: 17px;
     position: absolute;
     top: 85%;
-    left: 25%;
+    left: 25.4%;
     transform: translate(-20%, -50%);
     text-decoration: none;
     background: none;
     border: none;
     border: 1px solid #fff;
-    padding: 16px 30px;
+    padding: 15px 30px;
     transition: .5s;
+    margin-top: 19.1rem;
 }
 .button_banner_02:hover {
     color: #928e8e;
@@ -76,20 +79,23 @@ html, body {
 
 /* ======= SECTION 2 ========*/
 
-
+.header_info p{
+    color: #fff;
+}
 .container_info {
-    width: 100%;
     min-height: 100vh;
-    background-color: #000;
+    background: #000;
+    margin-top: 18rem;
 }
 .container_info p {
+    font-size: 13px;
+    padding: 25px 170px;
+    background: #000;
     color: #fff;
-    padding: 35px 190px;
-    font-size: 15px;
 }
 .container_info .header_info h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 6rem;
+    margin-top: 10rem;
     font-size: 65px;
     display: flex;
     justify-content: center;
@@ -395,7 +401,7 @@ html, body {
         width: 60%;
         text-align: center;
         align-items: center;
-        margin-top: 11rem;
+        margin-top: -6rem;
         margin-left: -9rem;    
         color: #fff;
         font-size: 13px;
@@ -403,6 +409,7 @@ html, body {
     .container_info .header_info h1 {
         font-size: 26px;
         letter-spacing: 2px;
+        margin-top: 3rem;
     }
     .text-effect{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
