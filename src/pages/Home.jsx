@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>  
       <div className='container-bn'>
-        <img src='./img/banner02.jpg' alt=''></img>
+        <div className='container-bn-img'></div>
         <h2 className='text_banner'>RS e-tron GT</h2>
         <button className='button_banner'>Nueva Configuracion</button>
         <button className='button_banner_02'>Solicitar asesoramiento</button>
@@ -29,10 +29,11 @@ const Home = () => {
         <p>Consumo eléctrico combinado en kWh/100 km¹: 20,2-19,3 (NEDC); 22,5-20,6 (WLTP); Emisiones de CO₂ combinadas en g/km¹: 0. Las cifras de consumo eléctrico y de emisiones de CO₂ dadas en rangos dependen del equipamiento seleccionado para el vehículo.</p>
 
         <h1 className='text-effect' data-aos="fade-up">Pura Energia y rendimiento <br></br>progresivo</h1>
-        
+        <div className='container-video'>
         <video className='video01' autoPlay muted loop>
           <source src='./img/video01.mp4'></source>
         </video>
+        </div>
       </div>
     </div>
     <div className='container_info_two'>

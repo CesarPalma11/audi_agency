@@ -42,3 +42,10 @@ header {
     margin-left: 40rem;
     
 }
+
+@media (max-width: 430px) {
+    .navbar .container{
+        height: 100px;
+    
+    }
+}

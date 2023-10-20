@@ -8,15 +8,19 @@ html, body {
     overflow-x: hidden;
 }
 .container-bn {
+    
     width: 100%;
     position: relative;
     display: inline-block;
     text-align: center;
+    height: 600px;
 }
 
-.container-bn img {
+.container-bn-img {
+    background-image: url('https://audireply.netlify.app/img/banner02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
     max-width: 100%;
     background-position: center;
 }
@@ -332,14 +336,89 @@ html, body {
 /* 430PX RESPONSIVE */
 
 @media (max-width: 430px) {
-    .container-bn{
-        height: 600px;
-        background: url('http://localhost:3000/img/imgmedia.jpg');
-        z-index: 1;
+    .container-bn-img{
+        max-width: 100%;
+        height: 800px;
+        background-image: url('https://audireply.netlify.app/img/imgmedia.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
     }
-    .container-bn img {
-        height: 600px;
-        width: 1000px;
+    .text_banner {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 88%;
+        left: 37%;
+        margin-top: 6rem;
+        transform: translate(-50%, -50%);
     }
-    
+    .button_banner {
+        color: #000;
+        text-decoration: none;
+        font-size: 17px;
+        position: absolute;
+        top: 85%;
+        left: 20%;
+        transform: translate(-9%, 50%);
+        overflow: hidden;
+        border: none;
+        padding: 16px 70px;
+        margin-top: 8rem;
+        border: none;
+        transition: .5s;
+    }
+    .button_banner_02 {
+        color: #fff;
+        text-decoration: none;
+        font-size: 17px;
+        position: absolute;
+        top: 85%;
+        left: 35%;
+        margin-top: 12rem;
+        transform: translate(-31.2%, 50%);
+        text-decoration: none;
+        background: none;
+        border: none;
+        border: 1px solid #fff;
+        padding: 1px 90px;
+        transition: .5s;
+    }
+    /* SECTION 2 */
+    .container_info {
+        width: 100%;
+        display: flex;
+        background-color: #000;
+    }
+    .header_info p {
+        display: flex;
+        width: 60%;
+        text-align: center;
+        align-items: center;
+        margin-top: 11rem;
+        margin-left: -9rem;    
+        color: #fff;
+        font-size: 13px;
+    }
+    .container_info .header_info h1 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .text-effect{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 6rem;
+        display: flex;
+        margin-left: -46rem;
+        margin-right: 2rem;
+        color: #fff;
+ 
+    }
+    .video01 {
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        margin-top: 10rem;
+        margin-left: -45rem;
+    }
 }
