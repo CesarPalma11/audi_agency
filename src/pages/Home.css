@@ -418,7 +418,6 @@ html, body {
         margin-left: -46rem;
         margin-right: 2rem;
         color: #fff;
- 
     }
     .video01 {
         display: flex;
@@ -427,5 +426,24 @@ html, body {
         height: 100%;
         margin-top: 10rem;
         margin-left: -45rem;
+    }
+}
+@media (max-width: 390px) {
+    .text_banner {
+        left: 38%;
+    }
+    .button_banner {
+        left: 18.9%;
+    }
+    .header_info p {
+        margin-left: -10.3rem;    
+        font-size: 11px;
+    }
+    .container_info .header_info h1 {
+        font-size: 23px;
+    }
+    .text-effect{
+        margin-left: -47rem;
+        margin-right: 3rem;
     }
 }
