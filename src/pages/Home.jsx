@@ -37,8 +37,9 @@ const Home = () => {
       </div>
     </div>
     <div className='container_info_two'>
+      <div className='header_info_two'>
       <p>Consumo eléctrico combinado en kWh/100 km¹: 20,2-19,3 (NEDC); 22,5-20,6 (WLTP); Emisiones de CO₂ combinadas en g/km¹: 0. Las cifras de consumo eléctrico y de emisiones de CO₂ dadas en rangos dependen del equipamiento seleccionado para el vehículo.</p>
-      
+      </div>
       
 
     </div>
@@ -55,15 +56,15 @@ const Home = () => {
       <span className='container-border' >
       <div className='container-info-sm info-fix'>
         <p className='parrafo-title'>Aceleración</p>
-        <h2>3.3 <p>s</p></h2>
+        <h2 className='test-two'>3.3 <p>s</p></h2>
         <p className='last-info'>0-100 km/h</p>
       </div>
       </span>
       
       
-      <div className='container-info-sm' >
+      <div className='container-info-sm twt' >
         <p className='parrafo-title'>Carga de sistema</p>
-        <h2>800<p>volts</p></h2>
+        <h2 className='test'>800<p>volts</p></h2>
       </div>
 
       
