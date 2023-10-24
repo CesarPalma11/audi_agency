@@ -331,6 +331,7 @@ html, body {
     margin-left: 48rem;
     gap: 8rem;
     cursor: pointer;
+    height: 10%;
 }
 .icons-dm p {
     font-size: 17px;
@@ -468,6 +469,11 @@ html, body {
     }
     .last-info {
         margin-left: -21rem;
+    }
+    .icons-dm {
+        margin-top: 5rem;
+        margin-left: 4rem;
+        height: 10%;
     }
     /* Plug & Play   */
 

@@ -48,28 +48,28 @@ const Home = () => {
    {/* SECTION THREE*/}
 
 
-    <div className='aside-three 'data-aos="fade-up">
+    <div className='aside-three '>
       <div className='container-info-sm' >
-        <p className='parrafo-title'>Producción</p>
-        <h2>440<p>kW</p></h2>
+        <p className='parrafo-title' data-aos="fade-up">Producción</p>
+        <h2 data-aos="fade-up">440<p data-aos="fade-up">kW</p></h2>
       </div>
       <span className='container-border' >
       <div className='container-info-sm info-fix'>
-        <p className='parrafo-title'>Aceleración</p>
-        <h2 className='test-two'>3.3 <p>s</p></h2>
-        <p className='last-info'>0-100 km/h</p>
+        <p className='parrafo-title' data-aos="fade-up">Aceleración</p>
+        <h2 className='test-two' data-aos="fade-up">3.3 <p data-aos="fade-up">s</p></h2>
+        <p className='last-info' data-aos="fade-up">0-100 km/h</p>
       </div>
       </span>
       
       
       <div className='container-info-sm twt' >
-        <p className='parrafo-title'>Carga de sistema</p>
-        <h2 className='test'>800<p>volts</p></h2>
+        <p className='parrafo-title' data-aos="fade-up">Carga de sistema</p>
+        <h2 className='test' data-aos="fade-up">800<p data-aos="fade-up">volts</p></h2>
       </div>
 
       
     </div>
-    <div className='two-icons'data-aos="fade-up">
+    <div className='two-icons'>
         <div className='icons-dm'>
         <PiTreeStructureLight className='icons-two' />
           <p>Dimensiones </p>
