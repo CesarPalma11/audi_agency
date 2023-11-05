@@ -34,7 +34,7 @@ const Burguer = styled.div`
   border-radius: 2px;
   transition: .3s cubic-bezier(.8, .5, .2, 1.4);
   width:100%;
-  height: 4px;
+  height: 2px;
   transition-duration: 500ms
 }
 .nav-icon-5 span:nth-child(1){

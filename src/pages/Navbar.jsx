@@ -16,20 +16,17 @@ function Navbar () {
   }
   return (
     <>
-
+    
     <NavContainer>
     <header className='bg-header'>
       <div className='navbar'>
         <div className='container'>
         <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
          <div className={`links ${clicked ? 'active' : ''}`}>
-
-          <ul>
-           <li><Link to='/allmodels' onClick={handleClick}>Todos los modelos</Link></li>
-            <li><Link to='/content' onClick={handleClick}>Servicios y Accesorios</Link></li>
-            <li><Link to='/' onClick={handleClick}>Mundo Audi</Link></li>
-            <li><Link to='/' onClick={handleClick}>Innovacion</Link></li>
-          </ul>
+           <a onClick={handleClick} href='#'> <Link to='/allmodels' >Todos los modelos</Link></a>
+            <a onClick={handleClick} href='#' ><Link to='/content' >Servicios y Accesorios</Link></a>
+            <a onClick={handleClick} href='#'><Link to='/' >Mundo Audi</Link></a>
+            <a onClick={handleClick} href='#'><Link to='/' >Innovacion</Link></a>
           <GrSearch className='search_icon'/>
           </div>
         </div>
