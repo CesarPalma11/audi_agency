@@ -70,9 +70,9 @@ const Home = () => {
       
     </div>
     <div className='two-icons'>
-        <div className='icons-dm'>
+        <div className='icons-dm' data-aos="fade-up">
         <PiTreeStructureLight className='icons-two' />
-          <p>Dimensiones </p>
+          <p >Dimensiones </p>
           <LiaToolsSolid className='icons-two'/>
           <p>Datos técnicos </p>
         </div>
@@ -115,3 +115,4 @@ const Home = () => {
   )
 }
 export default Home
+

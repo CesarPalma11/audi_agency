@@ -30,7 +30,7 @@ header {
 }
 
 .navbar .container .link {
-    color: #8f8c8c;
+    color: #a01f1f;
     text-decoration: none;
 }
 .navbar .container .link:hover {
@@ -42,7 +42,6 @@ header {
     margin-left: 40rem;
     
 }
-
 @media (max-width: 430px) {
     .navbar .container{
         height: 100px;
