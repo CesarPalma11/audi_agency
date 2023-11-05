@@ -23,8 +23,8 @@ function Navbar () {
         <div className='container'>
         <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
          <div className={`links ${clicked ? 'active' : ''}`}>
-           <a onClick={handleClick} href='#'> <Link to='/allmodels' >Todos los modelos</Link></a>
-            <a onClick={handleClick} href='#'><Link to='/content' >Servicios y Accesorios</Link></a>
+           <a onClick={handleClick} href='#' value=''> <Link to='/allmodels' >Todos los modelos</Link></a>
+            <a onClick={handleClick} href='#' value=''><Link to='/content' >Servicios y Accesorios</Link></a>
             <a onClick={handleClick} href='#'><Link to='/' >Mundo Audi</Link></a>
             <a onClick={handleClick} href='#'><Link to='/' >Innovacion</Link></a>
           <GrSearch className='search_icon'/>
