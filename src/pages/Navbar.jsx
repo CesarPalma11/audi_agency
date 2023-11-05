@@ -46,7 +46,6 @@ export default Navbar
 
 const NavContainer = styled.nav`
   h2{
-    z-index: 1;
     color: #000;
     font-weight: 400;
     span{
@@ -65,6 +64,7 @@ const NavContainer = styled.nav`
     margin-right: 1rem;
   }
   .links{
+    display: flex;
     z-index: 2;
     position: absolute;
     top: -700px;
@@ -74,15 +74,15 @@ const NavContainer = styled.nav`
     margin-right: auto;
     text-align: center;
     transition: all .5s ease;
-    a{
+
+    li{
       color: #000;
       font-size: 2rem;
-      display: block;
     }
     @media(min-width: 768px){
       position: initial;
       margin: 0;
-      a{
+      li{
         font-size: 1rem;
         color: #000;
         display: inline;
@@ -100,7 +100,7 @@ const NavContainer = styled.nav`
     left: 0;
     right: 0;
     text-align: center;
-    a{
+    li{
       font-size: 2rem;
       margin-top: 2rem;
       color: #000;
