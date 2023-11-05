@@ -9,15 +9,12 @@ header {
 .navbar .container{
     display: flex;
     justify-content: flex-start;
-
+    margin-left: -10rem;
 }
-
 .navbar .container img {
     width: 60px;
-    margin-left: -15rem;
+    margin-left: 15rem;
 }
-
-
 .navbar .container ul li {
     list-style: none;
     font-size: 17px;
@@ -25,7 +22,6 @@ header {
     margin-top: 1.1rem;
     cursor: pointer;
 }
-
 .navbar .container .link {
     color: #8f8c8c;
     text-decoration: none;
@@ -37,6 +33,4 @@ header {
     cursor: pointer;
     font-size: 20px;
     margin-left: 40rem;
-    
 }
-

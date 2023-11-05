@@ -24,10 +24,10 @@ function Navbar () {
         <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
          <div className={`links ${clicked ? 'active' : ''}`}>
          <ul>
-           <li><Link to='/allmodels' onClick={handleClick}>Todos los modelos</Link></li>
-            <li><Link to='/content' onClick={handleClick}>Servicios y Accesorios</Link></li>
-            <li><Link to='/' onClick={handleClick}>Mundo Audi</Link></li>
-            <li><Link to='/' onClick={handleClick}>Innovacion</Link></li>
+           <li><Link to='/allmodels' onClick={handleClick} className='link'>Todos los modelos</Link></li>
+            <li><Link to='/content' onClick={handleClick} className='link'>Servicios y Accesorios</Link></li>
+            <li><Link to='/' onClick={handleClick} className='link'>Mundo Audi</Link></li>
+            <li><Link to='/' onClick={handleClick} className='link'>Innovacion</Link></li>
           </ul>
           <GrSearch className='search_icon'/>
           </div>
@@ -75,9 +75,11 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all .5s ease;
 
-    li{
+    a{
+      margin-left: 3.5rem;
+      justify-content: space-between;
       color: #000;
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
     @media(min-width: 768px){
       position: initial;
