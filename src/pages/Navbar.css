@@ -9,7 +9,6 @@ header {
 .navbar .container{
     display: flex;
     justify-content: flex-start;
-
 }
 
 .navbar .container img {
@@ -30,7 +29,6 @@ header {
 }
 
 .navbar .container .link {
-    color: #a01f1f;
     text-decoration: none;
 }
 .navbar .container .link:hover {
@@ -40,7 +38,6 @@ header {
     cursor: pointer;
     font-size: 20px;
     margin-left: 40rem;
-    
 }
 @media (max-width: 430px) {
     .navbar .container{
