@@ -9,21 +9,19 @@ header {
 .navbar .container{
     display: flex;
     justify-content: flex-start;
-    margin-left: -2rem;
+    margin-left: -3rem;
+    height: 5vh;
 }
 .navbar .container img {
-    width: 100px;
+    width: 65px;
     margin-left: 1rem;
-    margin-top: 5rem;
+    margin-top: -1rem;
+    background: none;
 }
-.links {
-    margin-left: -5rem;
-}
-.navbar .container ul li {
+.navbar .container ul li .link{
     list-style: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
-    margin-top: 1.1rem;
     cursor: pointer;
 }
 .navbar .container .link {
@@ -33,11 +31,7 @@ header {
 .navbar .container .link:hover {
     color: #000;
 }
-.search_icon {
-    cursor: pointer;
-    font-size: 20px;
-    margin-left: 40rem;
-}
+
 @media (max-width: 480px) {
     * {
         box-sizing: border-box;

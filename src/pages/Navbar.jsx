@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import {Link } from 'react-router-dom'
-import {GrSearch} from 'react-icons/gr'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 
@@ -24,13 +23,12 @@ function Navbar () {
          <div className={`links ${clicked ? 'active' : ''}`}>
          
          <ul>
-                <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
-           <li><Link to='/allmodels'  className='link'>Todos los modelos</Link></li>
+            <li><Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link></li>
+            <li><Link to='/allmodels'  className='link'>Todos los modelos</Link></li>
             <li><Link to='/content' className='link'>Servicios y Accesorios</Link></li>
             <li><Link to='/'  className='link'>Mundo Audi</Link></li>
             <li><Link to='/'  className='link'>Innovacion</Link></li>
           </ul>
-          <GrSearch className='search_icon'/>
           </div>
         </div>
       </div>
@@ -54,12 +52,12 @@ const NavContainer = styled.nav`
     }
   }
   z-index: 1;
-  padding: .4rem;
+  padding: -.0rem;
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  a{
+  li{
     color: #000;
     text-decoration: none;
     margin-right: 4rem;
@@ -76,9 +74,8 @@ const NavContainer = styled.nav`
     margin-right: auto;
     text-align: center;
     transition: all .5s ease;
-
     a{
-      margin-left: 3.5rem;
+      margin-left: 3.2rem;
       justify-content: space-between;
       color: #000;
       font-size: 1.2rem;
@@ -106,7 +103,7 @@ const NavContainer = styled.nav`
     text-align: center;
     li{
       font-size: 2rem;
-      margin-top: 2rem;
+      margin-top: 1rem;
       color: #000;
     }
   }
