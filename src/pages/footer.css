@@ -71,6 +71,40 @@
     margin-top: 1.5rem;
     cursor: pointer;
 }
+.br_footer {
+    display: flex;
+    margin-left: 7rem;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    max-width: 70%;
+    margin-left: 4rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
 .p-footer .division-footer {
     margin-right: 4rem;
+}
+
+@media (max-width: 480px) {
+    .container-footer {
+        margin-top: 10rem;
+        width: 100%;
+        min-height: 60vh;
+        background: #000;
+    }
+    .line-footer {
+        border-bottom: 1px solid #474444;
+        max-width: 85%;
+        margin-left: 2rem;
+        margin-top: 7rem;
+    }
+    .p-footer {
+        margin-left: 3rem;
+    }
+    
 }

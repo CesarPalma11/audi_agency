@@ -66,15 +66,7 @@ const Footer = () => {
         <BiLogoInstagram className='icons-footer' />
         </div>
         <div className='p-footer'>
-        <p className='division-footer'>© 2023 Audi Argentina división de Volkswagen Argentina</p>
-        <p>MyAudi</p>
-        <p>Términos y Condiciones</p>
-        <p>Politicas de Privacidad</p>
-        <p>Politicas de Cookiees</p>
-        <p>Defensa del consumidor</p>
-        <p>Ayuda</p>
-        <p>Contacto</p>
-        <p>0800-888-2834</p>
+        <p className='division-footer'>© 2023 Audi división de Volkswagen</p>
         </div>
     </div>
     </>

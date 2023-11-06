@@ -21,13 +21,14 @@ function Navbar () {
     <header className='bg-header'>
       <div className='navbar'>
         <div className='container'>
-        <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
          <div className={`links ${clicked ? 'active' : ''}`}>
+         
          <ul>
-           <li><Link to='/allmodels' onClick={handleClick} className='link'>Todos los modelos</Link></li>
-            <li><Link to='/content' onClick={handleClick} className='link'>Servicios y Accesorios</Link></li>
-            <li><Link to='/' onClick={handleClick} className='link'>Mundo Audi</Link></li>
-            <li><Link to='/' onClick={handleClick} className='link'>Innovacion</Link></li>
+                <Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link>
+           <li><Link to='/allmodels'  className='link'>Todos los modelos</Link></li>
+            <li><Link to='/content' className='link'>Servicios y Accesorios</Link></li>
+            <li><Link to='/'  className='link'>Mundo Audi</Link></li>
+            <li><Link to='/'  className='link'>Innovacion</Link></li>
           </ul>
           <GrSearch className='search_icon'/>
           </div>
@@ -61,8 +62,9 @@ const NavContainer = styled.nav`
   a{
     color: #000;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 4rem;
   }
+  
   .links{
     display: flex;
     z-index: 2;
