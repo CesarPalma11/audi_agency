@@ -1,6 +1,6 @@
 .container_all {
     width: 100%;
-    background: #e6e6e6;
+    background: #fff;
     position: relative;
 }
 .container_all h1 {
@@ -11,3 +11,97 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.section_A1 {
+    display: flex;
+    background-color: #fff;
+    max-width: 100%;
+    padding: 20px 40px;
+    margin-left: 39rem;
+}
+.section_A1 .img_left {
+    width: 380px;
+    margin-left: -30rem;
+    margin-top: 2rem;
+}
+.section_A1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.section_A1 .img_right {
+    width: 290px;
+    height: 165px;    
+    margin-left: -4rem;
+    margin-top: 11rem;
+    
+}
+.section_A1 .button_A1 {
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20rem;
+    top: 55%;
+    left: 32.5%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0px 110px;
+    height: 53px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-left: -19rem;
+}
+.section_A1 .button_A1:hover {
+    color: #5c5a5a;
+    border-color: #5c5a5a;
+}
+@media (max-width: 430px) {
+    .section_A1 {
+        display: grid;
+        background-color: #fff;
+        max-width: 100%;
+        padding: 20px 40px;
+        margin-left: 39rem;
+    }
+    .container_all h1 {
+        font-size: 35px;
+        margin-left: 1.5rem;
+        padding: 20px ;
+    }
+    .section_A1 .img_left {
+        width: 380px;
+        margin-left: -40rem;
+        margin-top: 2rem;
+    }
+    .section_A1 .img_right {
+        width: 290px;
+        height: 165px;    
+        margin-left: -37rem;
+        margin-top: 11rem;
+        
+    }
+    .section_A1 h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5rem;
+        margin-left: -32rem;
+    }
+    .section_A1 .button_A1 {
+        color: #000;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 1rem;
+        width:19rem;
+        top: 55%;
+        left: 32.5%;
+        background: #fff;
+        overflow: hidden;
+        padding: 0px 110px;
+        height: 53px;
+        border: none;
+        background-color: transparent;
+        border: 1px solid #000;
+        margin-left: -37.5rem;
+    }
+}
