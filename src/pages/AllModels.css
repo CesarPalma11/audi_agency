@@ -56,7 +56,7 @@
     color: #5c5a5a;
     border-color: #5c5a5a;
 }
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .section_A1 {
         display: grid;
         background-color: #fff;
@@ -103,5 +103,19 @@
         background-color: transparent;
         border: 1px solid #000;
         margin-left: -37.5rem;
+    }
+}
+@media (max-width: 390px) {
+    .section_A1 .button_A1 {
+        margin-left: -38.7rem;
+    }
+    .section_A1 .img_left {
+        margin-left: -42rem;
+    }
+    .section_A1 .img_right {
+        margin-left: -38rem;
+    }
+    .section_A1 h3 {
+        margin-left: -32rem;
     }
 }
