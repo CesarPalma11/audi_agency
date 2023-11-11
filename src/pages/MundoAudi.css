@@ -238,3 +238,8 @@
         margin-top: 1rem;
     }
 }
+@media (max-width: 390px) {
+    .info_experience img {
+        margin-top: -82rem;
+    }
+}
