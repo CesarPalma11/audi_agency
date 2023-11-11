@@ -26,8 +26,8 @@ function Navbar () {
             <li><Link to={'/'}> <img src='./img/logo.jpg' alt='' ></img></Link></li>
             <li><Link to='/allmodels'  className='link'>Todos los modelos</Link></li>
             <li><Link to='/content' className='link'>Servicios y Accesorios</Link></li>
-            <li><Link to='/'  className='link'>Mundo Audi</Link></li>
-            <li><Link to='/'  className='link'>Innovacion</Link></li>
+            <li><Link to='/mundoaudi'  className='link'>Mundo Audi</Link></li>
+            <li><Link to='/innovacion'  className='link'>Innovacion</Link></li>
           </ul>
           </div>
         </div>

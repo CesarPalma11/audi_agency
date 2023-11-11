@@ -1,0 +1,166 @@
+.info_header h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6rem;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.info_header p {
+    width: 70%;
+    margin-left: 20rem;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.info_header_two h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+    width: 50%;
+    letter-spacing: 4px;
+    margin-left: 30rem;
+}
+.info_header_two p {
+    width: 50%;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 28rem;
+    margin-top: 2rem;
+}
+
+.info_withe h3 {
+    width: 50%;
+    margin-left: 26rem;
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 3.6rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.info_withe p {
+    width: 50%;
+    margin-left: 27rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.audi_config {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10rem 13rem;
+}
+.two-imgs h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    width: 80%;
+    margin-top: 16rem;
+    margin-left: 4rem;
+}
+.two-imgs p {
+    font-size: 17px;
+    margin-left: 4.3rem;
+    margin-top: 2rem;
+    width: 70%;
+    font-weight: 500;
+}
+.two-imgs button {
+    text-decoration: none;
+    background: none;
+    color: #000;
+    border: none;
+    border: 1px solid #000;
+    padding: 15px 80px;
+    margin-left: 4.1rem;
+    margin-top: 1rem;
+}
+.letters {
+    font-size: 15px;
+    width: 90%;
+    margin-left: 4rem;
+    font-weight: 500;
+    margin-bottom: -8.5rem;
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+    .info_header h1{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .info_header p {
+        width: 90%;
+        margin-left: 1.2rem;
+        margin-bottom: 4rem;
+        text-align: start;
+    }
+    .info_header_two h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+        width: 70%;
+        letter-spacing: 4px;
+        margin-left: 4rem;
+    }
+    .info_header_two p {
+        width: 90%;
+        font-size: 1rem;
+        text-align: start;
+        margin-left: 1rem;
+    }
+    
+    .info_withe h3 {
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+    .info_withe p {
+        width: 90%;
+        margin-left: 1rem;
+        text-align: start;
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+
+    .audi_config {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+    }
+    .two-imgs h1 {
+        letter-spacing: 2px;
+        font-size: 2rem;
+        width: 90%;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .two-imgs p {
+        font-size: 17px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        width: 89%;
+    }
+    .two-imgs button {
+        padding: 15px 140px;
+        margin-left: 2.1rem;
+        margin-top: 1rem;
+    }
+    .letters {
+        font-size: 15px;
+        width: 90%;
+        margin-left: 1.5rem;
+        font-weight: 500;
+        margin-bottom: -8.5rem;
+        margin-top: 5rem;
+    }
+
+}

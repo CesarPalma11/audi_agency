@@ -1,0 +1,240 @@
+.info_mundoaudi h1 {
+    color: #000;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 3rem;
+}
+.info_mundoaudi p {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -1rem;
+    width: 50%;
+    margin-left: 30rem;
+    color: #000;
+    letter-spacing: 1px;
+}
+.Audi_experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6rem;
+}
+.info_experience {
+    background: #000;
+    color: #fff;
+}
+.info_experience h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    width: 90%;
+    padding: 30px 60px;
+}
+.info_experience p {
+    width: 80%;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+.info_experience img {
+    width: 1270px;
+}
+.info_experience button {
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    padding: 15px 70px;
+    margin-left: 3.8rem;
+    margin-top: 7rem;
+}
+
+/* INFO LEFT*/
+
+.Audi_experience_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6rem;
+    color: #fff;
+    gap: 4rem;
+}
+.Audi_experience_left img {
+    width: 1200px;
+}
+.info_experience_left {
+    background: #000;
+}
+.info_experience_left h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 80px;
+    font-size: 2.8rem;
+    width: 90%;
+    letter-spacing: 1px;
+}
+.info_experience_left p {
+    padding: 40px 80px;
+    width: 90%;
+    font-size: 16px;
+}
+.info_experience_left button {
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    padding: 15px 80px;
+    margin-left: 4.8rem;
+    margin-top: -2rem;
+}
+
+/* INFO RIGHT*/
+
+.Audi_experience_right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #000;
+    color: #fff;
+    margin-top: 6rem;
+}
+.info_experience_right img {
+    width: 1250px;
+}
+.info_experience_right h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 70px;
+    font-size: 2.9rem;
+    margin-bottom: 4rem;
+    letter-spacing: 1px;
+}
+.info_experience_right p {
+    width: 75%;
+    margin-left: 4.3rem;
+    font-size: 17px;
+}
+.info_experience_right button {
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    padding: 15px 80px;
+    margin-left: 4.1rem;
+    margin-top: 3rem;
+}
+
+
+@media (max-width: 480px) {
+    .img_mundoaudi img {
+        width: 100%;
+    }
+    .info_mundoaudi h1 {
+        color: #000;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .info_mundoaudi p {
+        font-size: 17px;
+        margin-top: 2rem;
+        width: 90%;
+        margin-left:1.5rem;
+        color: #000;
+        letter-spacing: 1px;
+        text-align: start;
+    }
+    .Audi_experience {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        margin-bottom: -3.4rem;
+    }
+    .info_experience h3 {
+        font-size: 2rem;
+        width: 90%;
+        padding: 30px 30px;
+        margin-top: 9rem;
+    }
+    .info_experience p {
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .info_experience img {
+        width: 100%;
+        margin-top: -75rem;
+    }
+    .info_experience button {
+        padding: 15px 130px;
+        margin-left: 2.4rem;
+        margin-top: 3rem;
+    }
+
+    /* TWO */
+
+    .Audi_experience_left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        color: #fff;
+        gap: 4rem;
+    }
+    .Audi_experience_left img {
+        width: 100%;
+    }
+    .info_experience_left {
+        background: #000;
+        margin-bottom: -4rem;
+    }
+    .info_experience_left h3 {
+        padding: 30px 20px;
+        font-size: 2rem;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .info_experience_left p {
+        padding: 20px 10px;
+        width: 90%;
+        margin-left: 1.6rem;
+        font-size: 16px;
+        margin-bottom: 2rem;
+    }
+    .info_experience_left button {
+        padding: 15px 130px;
+        margin-left: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    /* THREE*/
+
+    .Audi_experience_right {
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        color: #fff;
+        margin-top: 6rem;
+    }
+    .info_experience_right img {
+        width: 100%;
+        margin-top: -79rem;
+    }
+    .info_experience_right h3 {
+        padding: 30px 20px;
+        font-size: 1.6rem;
+        margin-bottom: 0rem;
+        letter-spacing: 1px;
+        margin-top: 14.6rem;
+        margin-left: 1rem;
+    }
+    .info_experience_right p {
+        width: 85%;
+        margin-left: 2.3rem;
+        font-size: 17px;
+    }
+    .info_experience_right button {
+        padding: 15px 130px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+}
