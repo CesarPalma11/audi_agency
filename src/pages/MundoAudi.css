@@ -242,4 +242,9 @@
     .info_experience img {
         margin-top: -82rem;
     }
+    .info_experience button {
+        padding: 15px 120px;
+        margin-left: 1.4rem;
+        margin-top: 3rem;
+    }
 }

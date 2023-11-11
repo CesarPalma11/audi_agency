@@ -164,3 +164,10 @@
     }
 
 }
+@media (max-width: 390px) {
+    .two-imgs button {
+        padding: 15px 120px;
+        margin-left: 2.1rem;
+        margin-top: 1rem;
+    }
+}
